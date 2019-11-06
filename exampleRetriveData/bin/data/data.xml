@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<current>
+    <city id="1796236" name="Shanghai">
+        <coord lon="121.47" lat="31.22" />
+        <country>CN</country>
+        <timezone>28800</timezone>
+        <sun rise="2019-11-05T22:13:06" set="2019-11-06T09:02:20" />
+    </city>
+    <temperature value="19.37" min="17.78" max="21.67" unit="celsius" />
+    <humidity value="52" unit="%" />
+    <pressure value="1015" unit="hPa" />
+    <wind>
+        <speed value="3" unit="m/s" name="Light breeze" />
+        <gusts />
+        <direction value="90" code="E" name="East" />
+    </wind>
+    <clouds value="75" name="broken clouds" />
+    <visibility value="10000" />
+    <precipitation mode="no" />
+    <weather number="803" value="broken clouds" icon="04n" />
+    <lastupdate value="2019-11-06T09:41:20" />
+</current>

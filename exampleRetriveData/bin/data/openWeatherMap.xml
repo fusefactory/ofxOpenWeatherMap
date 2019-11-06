@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ofxOpenWeatherMap>
+<url base="https://api.openweathermap.org/data/2.5/weather?"/>
+<params>
+    <param>lat=31.2208829</param>
+    <param>lon=121.468611</param>
+    <param>units=metric</param>
+</params>
+<authentication apiKey="dea916c8b336c69726719ae9b4d301c0"/>
+</ofxOpenWeatherMap>
