@@ -49,26 +49,26 @@ public:
 
 class Humidity{
 public:
-    float value;                 //Humidity value
+    int value;                 //Humidity value
     string unit;                 //units
 };
 
 class Pressure{
 public:
-    float value;        //Pressure value
+    int value;        //Pressure value
     string unit;        //Pressure units, hPa
 };
 
 class Speed{
 public:
-    float value;        //Wind speed
+    int value;        //Wind speed
     string unit;       //Wind speed units, m/s
     string name;        //Type of the wind
 };
 
 class Direction{
 public:
-    float value;        //Wind direction, degrees (meteorological)
+    int value;        //Wind direction, degrees (meteorological)
     string code;        //Code of the wind direction. Possilbe value is WSW, N, S etc.
     string name;        //Full name of the wind direction.
 };
@@ -81,18 +81,18 @@ public:
 
 class Clouds{
 public:
-    float value;        //Cloudiness
+    int value;        //Cloudiness
     string name;        //Name of the cloudiness
 };
 
 class Visibility{
 public:
-    float value;        //Visibility, meter
+    int value;        //Visibility, meter
 };
 
 class Precipitation{
 public:
-    float value;        //Precipitation, mm
+    int value = 0;        //Precipitation, mm
     string mode;        //Possible values are 'no", name of weather phenomena as 'rain', 'snow'
 };
 
