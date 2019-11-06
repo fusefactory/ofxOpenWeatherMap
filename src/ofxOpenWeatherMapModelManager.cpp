@@ -25,9 +25,9 @@ void ofxOpenWeatherMapModelManager::updateModel(ofxXmlSettings &xml, ofxOpenWeat
     model.city.sun.set = xml.getAttribute("sun", "set", 0);
     xml.popTag();
 
-    model.temperature.value = xml.getAttribute("temperature", "value", 0);
-    model.temperature.min = xml.getAttribute("temperature", "min", 0);
-    model.temperature.max = xml.getAttribute("temperature", "max", 0);
+    model.temperature.value = xml.getAttribute("temperature", "value", 0.0);
+    model.temperature.min = xml.getAttribute("temperature", "min", 0.0);
+    model.temperature.max = xml.getAttribute("temperature", "max", 0.0);
     model.temperature.unit = xml.getAttribute("temperature", "unit", "");
     
     model.humidity.value = xml.getAttribute("humidity", "value", 0);
