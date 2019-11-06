@@ -61,6 +61,4 @@ void ofxOpenWeatherMapModelManager::updateModel(ofxXmlSettings &xml, ofxOpenWeat
     xml.popTag();
     
     model.timeLastUpdate = time(0);
-
-    return model;
 }
