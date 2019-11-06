@@ -6,5 +6,5 @@
     <param>lon=121.468611</param>
     <param>units=metric</param>
 </params>
-<authentication apiKey="dea916c8b336c69726719ae9b4d301c0"/>
+<authentication apiKey="YOUR-API-KEY"/>
 </ofxOpenWeatherMap>
